@@ -1,0 +1,85 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 485317a2-736b-4421-81fd-5f1177ec3b25)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 22.86 21.59) (size 35.56 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1a573e51-11cd-4635-a898-7464a64bf0df)
+    (property "Sheetname" "MCU" (at 22.86 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 22.86 45.0346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "VoronToolheadPCB"
+        (path "/485317a2-736b-4421-81fd-5f1177ec3b25" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 22.86 54.61) (size 35.56 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 24a3659c-7d74-48f3-968b-7da17b17072f)
+    (property "Sheetname" "Stepper" (at 22.86 53.8984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "stepper.kicad_sch" (at 22.86 78.0546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "VoronToolheadPCB"
+        (path "/485317a2-736b-4421-81fd-5f1177ec3b25" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 66.04 21.59) (size 39.37 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 92d580fb-f3cf-4ff3-8c55-4e63cebbed28)
+    (property "Sheetname" "USB" (at 66.04 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb.kicad_sch" (at 66.04 45.0346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 66.04 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "VoronToolheadPCB"
+        (path "/485317a2-736b-4421-81fd-5f1177ec3b25" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 66.04 54.61) (size 39.37 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b2532374-f680-41f2-98a9-1819e6b32f97)
+    (property "Sheetname" "Connectors" (at 66.04 53.8984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "connectors.kicad_sch" (at 66.04 78.0546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "VoronToolheadPCB"
+        (path "/485317a2-736b-4421-81fd-5f1177ec3b25" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
